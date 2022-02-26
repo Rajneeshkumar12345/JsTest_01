@@ -12,7 +12,7 @@
 // A: It's not a string!
 // B: Yay it's a string!
 // C: TypeError
-// D: undefined
+// D: undefined  *
 
 // // < --------------Question 2----------------->
 
@@ -27,7 +27,7 @@
 // console.log(user.email)
 
 // A: my@email.com
-// B: new@email.com
+// B: new@email.com   *
 // C: undefined
 // D: ReferenceError
 
@@ -35,14 +35,14 @@
 // const fruit = ['🍌', '🍊', '🍎']
 
 // fruit.slice(0, 1)
-// fruit.splice(0, 1)
+// fruit.splice(0, 1)  
 // fruit.unshift('🍇')
 
 // console.log(fruit)
 
 // A: ['🍌', '🍊', '🍎']
 // B: ['🍊', '🍎']
-// C: ['🍇', '🍊', '🍎']
+// C: ['🍇', '🍊', '🍎']   *
 // D: ['🍇', '🍌', '🍊', '🍎']
 
 // // < --------------Question 4----------------->
@@ -59,7 +59,7 @@
 // A: 1
 // B: 2
 // C: 3
-// D: 4
+// D: 4  *
 
 // // < --------------Question 5----------------->
 
@@ -71,8 +71,8 @@
 // /* 4 */ emojis.length = 0;
 // A: 1
 // B: 1 and 2
-// C: 3 and 4
-// D: 3
+// C: 3 and 4   *
+// D: 3  
 
 // // < --------------Question 6----------------->
 // // for this ques read this https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
@@ -91,7 +91,7 @@
 // A: 2 4 and 3 6
 // B: 2 NaN and 3 NaN
 // C: 2 Error and 3 6
-// D: 2 4 and 3 Error
+// D: 2 4 and 3 Error  *
 
 // // < --------------Question 7----------------->
 // // for this question google what Object.freeze does 
@@ -105,7 +105,7 @@
 // Object.freeze(person);
 
 // A: person.name = "Evan Bacon"
-// B: delete person.address
+// B: delete person.address   *
 // C: person.address.street = "101 Main St"
 // D: person.pet = { name: "Mara" }
 
@@ -126,7 +126,7 @@
 // console.log(emojis.flat(1));
 // A: ['🥑', ['✨', '✨', ['🍕', '🍕']]]
 // B: ['🥑', '✨', '✨', ['🍕', '🍕']]
-// C: ['🥑', ['✨', '✨', '🍕', '🍕']]
+// C: ['🥑', ['✨', '✨', '🍕', '🍕']]  *
 // D: ['🥑', '✨', '✨', '🍕', '🍕']
 
 // // < --------------Question 10----------------->
@@ -141,7 +141,7 @@
 // getInfo();
 // A: "number"
 // B: "string"
-// C: undefined
+// C: undefined    *
 // D: ReferenceError
 
 // // < --------------Question 11----------------->
@@ -160,7 +160,7 @@
 // add(4);
 
 // A: 4 5 6
-// B: 6 5 4
+// B: 6 5 4 *
 // C: 4 function function
 // D: undefined undefined 6
 
@@ -178,7 +178,7 @@
 // A: We have to buy bananas!
 // B: We don't have to buy bananas
 // C: undefined
-// D: 1
+// D: 1  *
 
 // // < --------------Question 13----------------->
 // // read:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
@@ -212,7 +212,7 @@
 // console.log(list[(num += 1)]);
 // A: 🤠
 // B: 🥰
-// C: SyntaxError
+// C: SyntaxError  *
 // D: ReferenceError
 
 // // < --------------Question 15----------------->
@@ -223,7 +223,7 @@
 // A: sumValues([...1, 2, 3])
 // B: sumValues([...[1, 2, 3]])
 // C: sumValues(...[1, 2, 3])
-// D: sumValues([1, 2, 3])
+// D: sumValues([1, 2, 3])  *
 
 // // < --------------Question 16----------------->
 // // revise default paramters and spred operator 
@@ -255,7 +255,7 @@
 // info.favoriteFood = '🍝';
 
 // console.log(food);
-// A: ['🍕', '🍫', '🥑', '🍔']
+// A: ['🍕', '🍫', '🥑', '🍔']    *
 // B: ['🍝', '🍫', '🥑', '🍔']
 // C: ['🍝', '🍕', '🍫', '🥑', '🍔']
 // D: ReferenceError
@@ -274,7 +274,7 @@
 
 // console.log(colorConfig.colors[1]);
 // A: true
-// B: false
+// B: false  *
 // C: undefined
 // D: TypeError
 
@@ -291,7 +291,7 @@
 // console.log(nums(1, 2));
 
 // A: a is bigger, 6 and b is bigger, 3
-// B: a is bigger, undefined and b is bigger, undefined
+// B: a is bigger, undefined and b is bigger, undefined *
 // C: undefined and undefined
 // D: SyntaxError
 
@@ -307,7 +307,7 @@
 //   console.log(x, y);
 // }
 // A: name Lydia and age 21
-// B: ["name", "Lydia"] and ["age", 21]
+// B: ["name", "Lydia"] and ["age", 21]   *
 // C: ["name", "age"] and undefined
 // D: Error
 
@@ -318,14 +318,14 @@
 // console.log(newList.push(5));
 // A: [1, 2, 3, 4, 5]
 // B: [1, 2, 3, 5]
-// C: [1, 2, 3, 4]
+// C: [1, 2, 3, 4]  *
 // D: Error
 
 // // < --------------Question 22----------------->
 // console.log('I want pizza'[0]);
 // A: """
 // B: "I"
-// C: SyntaxError
+// C: SyntaxError  *
 // D: undefined
 
 // // < --------------Question 23----------------->
@@ -344,7 +344,7 @@
 // A: "Sorry, you're too young."
 // B: "Yay! You're old enough!"
 // C: ReferenceError
-// D: undefined
+// D: undefined   *
 
 // // < --------------Question 24----------------->
 
@@ -358,7 +358,7 @@
 
 // console.log(person);
 // A: { name: "Lydia", age: 21 }
-// B: { name: "Lydia", age: 21, city: "Amsterdam" }
+// B: { name: "Lydia", age: 21, city: "Amsterdam" }   *
 // C: { name: "Lydia", age: 21, city: undefined }
 // D: "Amsterdam"
 
@@ -369,7 +369,7 @@
 
 // console.log(admin);
 // A: { admin: true, user: { name: "Lydia", age: 21 } }
-// B: { admin: true, name: "Lydia", age: 21 }
+// B: { admin: true, name: "Lydia", age: 21 }  *
 // C: { admin: true, user: ["Lydia", 21] }
 // D: { admin: true }
 
@@ -395,7 +395,7 @@
 // A: { name: "Lydia" }, { age: 21 }
 // B: "name", "age"
 // C: "Lydia", 21
-// D: ["name", "Lydia"], ["age", 21]
+// D: ["name", "Lydia"], ["age", 21]  *
 
 // // < --------------Question 28----------------->
 
@@ -403,7 +403,7 @@
 // numbers[10] = 11;
 // console.log(numbers);
 // A: [1, 2, 3, 7 x null, 11]
-// B: [1, 2, 3, 11]
+// B: [1, 2, 3, 11]   *
 // C: [1, 2, 3, 7 x empty, 11]
 // D: SyntaxError
 
@@ -418,7 +418,7 @@
 // console.log(sayHi.call(person, 21));
 // console.log(sayHi.bind(person, 21));
 // A: undefined is 21 Lydia is 21
-// B: function function
+// B: function function   *
 // C: Lydia is 21 Lydia is 21
 // D: Lydia is 21 function
 
@@ -429,6 +429,6 @@
 
 // console.log(num);
 // A: 8
-// B: 10
+// B: 10  *
 // C: SyntaxError
 // D: ReferenceError 
